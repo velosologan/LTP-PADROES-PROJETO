@@ -6,4 +6,6 @@ public class Data {
 	private byte mes;
 	private short ano;
 	
+	public Data() {
+	}	
 }
