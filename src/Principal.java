@@ -1,14 +1,13 @@
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Principal {
 	public static void main(String[] args) {
-		
-		Singleton1 s;
 
+		ExecutorService pool = Executors.newCachedThreadPool();
+		
 		for(int i = 0; i < 10; i++){
-			
-			s = Singleton1.getInstance();
-			System.out.println(i + ": " + s);
-			
+			pool.execute(new Tarefa());
 		}
 	}
 }	
