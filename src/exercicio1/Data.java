@@ -7,5 +7,9 @@ public class Data {
 	private short ano;
 	
 	public Data() {
-	}	
+	}
+	
+	public Data(int dia, int mes, int ano) {
+	
+	}
 }
