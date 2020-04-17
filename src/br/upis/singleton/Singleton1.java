@@ -1,3 +1,4 @@
+package br.upis.singleton;
 
 public class Singleton1 {
 	

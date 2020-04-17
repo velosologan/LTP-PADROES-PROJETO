@@ -1,3 +1,4 @@
+package br.upis.singleton;
 
 public class Tarefa implements Runnable {
 
